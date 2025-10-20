@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "405758882255",
+    "project_id": "chatbot-46baf",
+    "storage_bucket": "chatbot-46baf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405758882255:android:168c1b759295904f99a2ba",
+        "android_client_info": {
+          "package_name": "com.example.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405758882255-5k0qo953c0tek4bej4vjf1ugdm3tvf9c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot",
+            "certificate_hash": "c3b7ab137702f60387b02db179837ec8cf8216e7"
+          }
+        },
+        {
+          "client_id": "405758882255-6qcbem78mg3scl8ie9to8qj1dhmgr61t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot",
+            "certificate_hash": "e2034374f3178a0a221c0bc4cc159ccdee019ecb"
+          }
+        },
+        {
+          "client_id": "405758882255-ak8d4jabtaqg9a4er6k4lifhcdskjmji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot",
+            "certificate_hash": "74f59ffe69e36d341020055c795abebc5fe2b7e6"
+          }
+        },
+        {
+          "client_id": "405758882255-f448ksd3vtsknae0otl9d5rs5ggest42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot",
+            "certificate_hash": "8a64ff4ab64af6e744be65c2b847ce441a5c76bd"
+          }
+        },
+        {
+          "client_id": "405758882255-kdaod0i53e81bdc4bu5umlt1eit9vjq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbot",
+            "certificate_hash": "874fff0944ea40db5edd7818168abcf8974f99eb"
+          }
+        },
+        {
+          "client_id": "405758882255-kq4tq8i995vd7djdtc07e4b7mvd7jf75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIalLdXl1o4LKj8Hb4-zlvU5jIbJPFEzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405758882255-e33ge7renktulucqnkubqagr4d2hihr6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405758882255-j04s8n18ageiadndc3st6frshqk0d5js.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatbot"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

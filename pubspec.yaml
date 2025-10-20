@@ -1,0 +1,82 @@
+name: ask_psu
+description: "Ask PSU - Your AI Assistant"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  intl_phone_field: ^3.2.0
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.64.0
+  image_picker: ^1.0.4
+  flutter_colorpicker: ^1.0.3
+  flutter_linkify: ^6.0.0
+  url_launcher: ^6.2.5
+  google_fonts: ^6.1.0
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.9
+  firebase_analytics: ^10.10.7
+  firebase_storage: ^11.6.10
+  cloud_firestore: ^4.17.5
+  file_picker: ^8.0.7
+  csv: ^6.0.0
+  string_similarity: ^2.0.0
+  shared_preferences: ^2.5.3
+  uuid: ^4.2.2
+  firebase_auth_web: ^5.0.0
+  google_sign_in: ^6.1.4
+  connectivity_plus: ^6.0.3
+  logger: ^2.4.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/Logo_AskPSU.png
+    - assets/images/defaultDP.jpg
+    - assets/images/dhvbot.png
+    - assets/images/dhvsu.jpg
+    - assets/images/1.png
+    - assets/images/2.png
+    - assets/images/3.png
+    - assets/images/google.png
+    - assets/images/aira.png
+    - assets/images/jereme.png
+    - assets/images/kisses.png
+    - assets/images/lloyd.png
+    - assets/images/mariel.png
+    - assets/images/noemi.png
+    - assets/images/preloader.gif
+    - assets/images/history_empty.png
+    - assets/images/notification_empty.png
+    - assets/faq_general.csv
+
+# App Icon Configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/Logo_AskPSU.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/images/Logo_AskPSU.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/Logo_AskPSU.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/Logo_AskPSU.png"

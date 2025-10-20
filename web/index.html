@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+  <meta name="google-signin-client_id" content="405758882255-kq4tq8i995vd7djdtc07e4b7mvd7jf75.apps.googleusercontent.com">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="chatbot">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>chatbot</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <!-- Firebase SDKs - Updated to match Flutter dependencies -->
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"></script>
+
+  <script>
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBxIVAxLR6KGBohr2XC3NC5AVasVJ2CvR4",
+      authDomain: "chatbot-46baf.firebaseapp.com",
+      projectId: "chatbot-46baf",
+      storageBucket: "chatbot-46baf.firebasestorage.app",
+      messagingSenderId: "405758882255",
+      appId: "1:405758882255:web:e30a5ef986465a8f99a2ba",
+      measurementId: "G-GK3HRQJ8WN"
+    };
+
+    // Initialize Firebase only if not already initialized
+    if (!firebase.apps.length) {
+      firebase.initializeApp(firebaseConfig);
+    }
+
+    // Global error handler for Firestore internal assertion failures
+    window.addEventListener('error', function(event) {
+      if (event.error && event.error.message && 
+          (event.error.message.includes('INTERNAL ASSERTION FAILED') || 
+           event.error.message.includes('Unexpected state'))) {
+        console.warn('🚨 Caught Firestore internal assertion failure:', event.error.message);
+        event.preventDefault(); // Prevent the error from crashing the app
+        return false;
+      }
+    });
+
+    // Handle unhandled promise rejections
+    window.addEventListener('unhandledrejection', function(event) {
+      if (event.reason && event.reason.message && 
+          (event.reason.message.includes('INTERNAL ASSERTION FAILED') || 
+           event.reason.message.includes('Unexpected state'))) {
+        console.warn('🚨 Caught Firestore internal assertion failure in promise:', event.reason.message);
+        event.preventDefault(); // Prevent the error from crashing the app
+        return false;
+      }
+    });
+  </script>
+
+  <!-- Flutter app -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

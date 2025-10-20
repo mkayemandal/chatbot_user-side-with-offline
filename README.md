@@ -1,16 +1,28 @@
-# chatbot
+## Chatbot User App (with Offline Support)
 
-A new Flutter project.
+This Flutter-based chatbot app is part of the AskPSU System — an intelligent assistant developed for Pampanga State University.
+It allows students to interact with the university’s chatbot for admission and general inquiries, even without an internet connection, by using locally stored datasets.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+AI-Powered Chatbot — Provides instant answers to user queries using NLP.
 
-A few resources to get you started if this is your first Flutter project:
+Offline Mode — Works even without internet by accessing a local dataset.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Online Sync — Automatically syncs data with Firebase when reconnected.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Modern Flutter UI — Clean and responsive interface for Android and Web.
+
+Notifications — Users get responses, feedback acknowledgments, and updates.
+
+Feedback System — Allows users to rate chatbot responses (Good/Bad).
+
+## Tech Stack
+
+Frontend: Flutter (Dart)
+
+Backend: Firebase Firestore & Firebase Auth
+
+Offline Support: Local JSON storage & sync manager
+
+Version Control: Git & GitHub
